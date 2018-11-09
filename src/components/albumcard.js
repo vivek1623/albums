@@ -4,7 +4,14 @@ import { Text, View, Image, Linking } from 'react-native';
 import Button from './button';
 
 const AlbumCard = (props) => {
-    const { albumCardContainerStyle, cardHeaderContainer, avatarStyle, titleStyle, subTitleStyle, imageStyle } = styles;
+    const { 
+        albumCardContainerStyle, 
+        cardHeaderContainer, 
+        avatarStyle, 
+        titleStyle, 
+        subTitleStyle, 
+        imageStyle 
+    } = styles;
     const { album } = props;
 
     return (
